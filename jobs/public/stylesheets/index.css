@@ -1,0 +1,91 @@
+
+@media (width <= 768px) {
+
+  .texto {
+      font-size: 60px !important; 
+  }
+}
+@media (width <= 576px) {
+
+  .texto {
+      font-size: 50px !important; 
+  }
+}
+
+
+.titulo {
+  height: calc(100vh - 56px);
+ 
+
+
+  .texto {
+    font-size: 100px;
+  
+  
+    color: white;
+    text-shadow: 5px 5px black;
+    .jobs {
+      background-color: #EBD4AD;
+      box-shadow: 5px 3px 1px  black;
+      margin-left: 5px;
+    }
+  }
+
+}
+
+.videofondo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+  .videofondo{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9){
+  .videofondo{
+    width: auto;
+    height: 100%;
+  }
+} 
+
+.company{
+background-color: #E9E5DD;
+
+}
+
+
+
+
+
+.card{
+  .boton {
+    background-color: #EBD4AD;
+    box-shadow: 3px 3px  black;
+    color: black;
+    text-shadow: 1px 1px wheat;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+
+
+  .boton:hover {
+    box-shadow: rgba(73, 54, 2, 0.25) 1px 30px 60px -12px inset,
+      rgba(56, 46, 4, 0.342) 1px 18px 36px -18px inset;
+      
+  }
+}
+
+
+
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+

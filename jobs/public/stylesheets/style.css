@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #E9E5DD;
+  
+ 
+
+
+
+  .jobs {
+    background-color: #EBD4AD;
+    box-shadow: 3px 2px 1px  black;
+    margin-left: 2px;
+    border-radius: 5px;
+  }
+
+  a:hover {
+    box-shadow: #EBD4AD 1px 30px 60px -12px inset;
+      
+      border-radius: 10px;
+      
+  }
+}
+
+footer {
+  background-color: #EBD4AD;
+}
+
+
